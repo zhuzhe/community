@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  content: MyText
+  count_people: 1
+
+two:
+  content: MyText
+  count_people: 1

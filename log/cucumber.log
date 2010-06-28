@@ -1,0 +1,689 @@
+# Logfile created on Thu Jun 17 21:05:05 +0800 2010  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (26.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (37.7ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 14:06:13', NULL, '2010-06-17 14:06:13', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (11.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 14:30:52', NULL, '2010-06-17 14:30:52', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 14:31:23', NULL, '2010-06-17 14:31:23', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 22:31:23) [GET]
+Rendering sessions/new
+Completed in 18ms (View: 15, DB: 2) | 200 OK [http://www.example.com/session/new]
+  [4;35;1mSQL (1.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 14:36:57', NULL, '2010-06-17 14:36:57', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 22:36:57) [GET]
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 22:36:57) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-06-17 22:36:57) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 14:38:59', NULL, '2010-06-17 14:38:59', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 22:38:59) [GET]
+Rendering sessions/new
+Completed in 6ms (View: 4, DB: 3) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 22:38:59) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-06-17 22:38:59) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (15.5ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 14:39:12', NULL, '2010-06-17 14:39:12', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 22:39:12) [GET]
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 22:39:12) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-06-17 22:39:12) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 14:40:15', NULL, '2010-06-17 14:40:15', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 22:40:15) [GET]
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 2) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 22:40:15) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-06-17 22:40:15) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 15:04:20', NULL, '2010-06-17 15:04:20', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 23:04:20) [GET]
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 23:04:20) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+Redirected to http://www.example.com/tasks
+Completed in 1ms (DB: 0) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/tasks with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-17 23:04:20) [GET]
+  [4;35;1mTask Load (0.0ms)[0m   [0mMysql::Error: Table 'community_test.tasks' doesn't exist: SELECT * FROM `tasks` [0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 23:04:20) [GET]
+  [4;36;1mSQL (12.4ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 15:04:41', NULL, '2010-06-17 15:04:41', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 23:04:41) [GET]
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 3) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 23:04:41) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+Redirected to http://www.example.com/tasks
+Completed in 0ms (DB: 0) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/tasks with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-17 23:04:41) [GET]
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 28ms (View: 24, DB: 0) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (10.8ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.9ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 15:25:42', NULL, '2010-06-17 15:25:42', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 23:25:42) [GET]
+Rendering sessions/new
+Completed in 6ms (View: 4, DB: 15) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 23:25:42) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+Redirected to http://www.example.com/tasks
+Completed in 0ms (DB: 0) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/tasks with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-17 23:25:42) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 45ms (View: 41, DB: 0) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mSQL (6.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 15:26:13', NULL, '2010-06-17 15:26:13', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 23:26:13) [GET]
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 2) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 23:26:13) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-06-17 23:26:13) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `email`) VALUES('2010-06-17 15:26:37', NULL, '2010-06-17 15:26:37', NULL, 'monkey', NULL, 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 23:26:37) [GET]
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 2) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 23:26:37) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+Redirected to http://www.example.com/tasks
+Completed in 6ms (DB: 0) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/tasks with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-17 23:26:37) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-17 15:50:29', '511623198803160011', '2010-06-17 15:50:29', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-17 23:50:29) [GET]
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 2) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-17 23:50:29) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+Redirected to http://www.example.com/tasks
+Completed in 19ms (DB: 0) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/tasks with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-17 23:50:29) [GET]
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (54.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (121.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (36.7ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:04:24', '511623198803160011', '2010-06-23 15:04:24', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (17.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:04:41', '511623198803160011', '2010-06-23 15:04:41', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-23 23:04:41) [GET]
+Rendering sessions/new
+Completed in 17ms (View: 15, DB: 2) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-23 23:04:41) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+Redirected to http://www.example.com/tasks
+Completed in 70ms (DB: 0) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/tasks with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:04:42) [GET]
+  [4;35;1mTask Load (28.0ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 35ms (View: 3, DB: 28) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:05:45', '511623198803160011', '2010-06-23 15:05:45', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:05:53', '511623198803160011', '2010-06-23 15:05:53', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /session/new with {} and HTTP headers {}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-06-23 23:05:53) [GET]
+Rendering sessions/new
+Completed in 5ms (View: 3, DB: 2) | 200 OK [http://www.example.com/session/new]
+REQUESTING PAGE: POST /session with {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"} and HTTP headers {"HTTP_REFERER"=>"/session/new"}
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-06-23 23:05:53) [POST]
+  Parameters: {"commit"=>"Login", "pwd"=>"monkey", "email"=>"zhuzheiswho@sina.com"}
+Redirected to http://www.example.com/tasks
+Completed in 5ms (DB: 0) | 302 Found [http://www.example.com/session]
+REQUESTING PAGE: GET http://www.example.com/tasks with {} and HTTP headers {"HTTP_REFERER"=>"/session"}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:05:53) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:06:00', '511623198803160011', '2010-06-23 15:06:00', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:15:11', '511623198803160011', '2010-06-23 15:15:11', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (12.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:16:39', '511623198803160011', '2010-06-23 15:16:39', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:17:04', '511623198803160011', '2010-06-23 15:17:04', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:20:02', '511623198803160011', '2010-06-23 15:20:02', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:21:19', '511623198803160011', '2010-06-23 15:21:19', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:21:58', '511623198803160011', '2010-06-23 15:21:58', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:27:42', '511623198803160011', '2010-06-23 15:27:42', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:27:42) [GET]
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 40ms (View: 33, DB: 4) | 200 OK [http://www.example.com/tasks]
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:28:46', '511623198803160011', '2010-06-23 15:28:46', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (3.9ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:28:46) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 25ms (View: 18, DB: 8) | 200 OK [http://www.example.com/tasks]
+REQUESTING PAGE: POST /tasks with {"commit"=>"new", "task"=>{"count_people"=>"1", "content"=>"I want a girl with me to hava a drink"}} and HTTP headers {"HTTP_REFERER"=>"/tasks"}
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-06-23 23:28:46) [POST]
+  Parameters: {"commit"=>"new", "task"=>{"count_people"=>"1", "content"=>"I want a girl with me to hava a drink"}}
+  [4;35;1mSQL (1.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mTask Create (0.3ms)[0m   [0;1mINSERT INTO `tasks` (`count_people`, `created_at`, `updated_at`, `content`, `status`) VALUES(1, '2010-06-23 15:28:46', '2010-06-23 15:28:46', 'I want a girl with me to hava a drink', 'waiting')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/tasks/1
+Completed in 18ms (DB: 2) | 302 Found [http://www.example.com/tasks]
+REQUESTING PAGE: GET http://www.example.com/tasks/1 with {} and HTTP headers {"HTTP_REFERER"=>"/tasks"}
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-06-23 23:28:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTask Load (28.7ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 1) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 33ms (View: 2, DB: 29) | 200 OK [http://www.example.com/tasks/1]
+  [4;35;1mSQL (6.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:48:54', '511623198803160011', '2010-06-23 15:48:54', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:48:54) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 23ms (View: 17, DB: 5) | 200 OK [http://www.example.com/tasks]
+  [4;35;1mSQL (5.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:51:00', '511623198803160011', '2010-06-23 15:51:00', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:51:00) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 18ms (View: 12, DB: 4) | 200 OK [http://www.example.com/tasks]
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:51:32', '511623198803160011', '2010-06-23 15:51:32', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:51:32) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 18ms (View: 12, DB: 4) | 200 OK [http://www.example.com/tasks]
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:51:51', '511623198803160011', '2010-06-23 15:51:51', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:51:51) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 18ms (View: 12, DB: 4) | 200 OK [http://www.example.com/tasks]
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:52:16', '511623198803160011', '2010-06-23 15:52:16', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:52:16) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 18ms (View: 12, DB: 4) | 200 OK [http://www.example.com/tasks]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:52:35', '511623198803160011', '2010-06-23 15:52:35', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:52:35) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 18ms (View: 12, DB: 4) | 200 OK [http://www.example.com/tasks]
+REQUESTING PAGE: POST /tasks with {"commit"=>"new", "task"=>{"count_people"=>"1", "content"=>"I want a girl with me to hava a drink"}} and HTTP headers {"HTTP_REFERER"=>"/tasks"}
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-06-23 23:52:35) [POST]
+  Parameters: {"commit"=>"new", "task"=>{"count_people"=>"1", "content"=>"I want a girl with me to hava a drink"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mTask Create (0.3ms)[0m   [0;1mINSERT INTO `tasks` (`count_people`, `created_at`, `updated_at`, `content`, `status`) VALUES(1, '2010-06-23 15:52:35', '2010-06-23 15:52:35', 'I want a girl with me to hava a drink', 'waiting')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/tasks/2
+Completed in 5ms (DB: 1) | 302 Found [http://www.example.com/tasks]
+REQUESTING PAGE: GET http://www.example.com/tasks/2 with {} and HTTP headers {"HTTP_REFERER"=>"/tasks"}
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-06-23 23:52:35) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 2) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/tasks/2]
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 15:52:55', '511623198803160011', '2010-06-23 15:52:55', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-23 23:52:55) [GET]
+  [4;35;1mTask Load (0.3ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 18ms (View: 12, DB: 4) | 200 OK [http://www.example.com/tasks]
+REQUESTING PAGE: POST /tasks with {"commit"=>"new", "task"=>{"count_people"=>"1", "content"=>"I want a girl with me to hava a drink"}} and HTTP headers {"HTTP_REFERER"=>"/tasks"}
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-06-23 23:52:55) [POST]
+  Parameters: {"commit"=>"new", "task"=>{"count_people"=>"1", "content"=>"I want a girl with me to hava a drink"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mTask Create (0.2ms)[0m   [0;1mINSERT INTO `tasks` (`count_people`, `created_at`, `updated_at`, `content`, `status`) VALUES(1, '2010-06-23 15:52:55', '2010-06-23 15:52:55', 'I want a girl with me to hava a drink', 'waiting')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/tasks/3
+Completed in 5ms (DB: 0) | 302 Found [http://www.example.com/tasks]
+REQUESTING PAGE: GET http://www.example.com/tasks/3 with {} and HTTP headers {"HTTP_REFERER"=>"/tasks"}
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-06-23 23:52:55) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 3) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/tasks/3]
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`name`, `created_at`, `id_card`, `updated_at`, `sex`, `pwd`, `phone`, `birthday`, `email`) VALUES('zhuzhe', '2010-06-23 16:11:19', '511623198803160011', '2010-06-23 16:11:19', 'male', 'monkey', '13679078762', '1988-02-16', 'zhuzheiswho@sina.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+REQUESTING PAGE: GET /tasks with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2010-06-24 00:11:19) [GET]
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM `tasks` [0m
+  [4;36;1mTask Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering template within layouts/tasks
+Rendering tasks/index
+Completed in 18ms (View: 12, DB: 5) | 200 OK [http://www.example.com/tasks]
+REQUESTING PAGE: POST /tasks with {"commit"=>"new", "task"=>{"count_people"=>"1", "content"=>"I want a girl with me to hava a drink"}} and HTTP headers {"HTTP_REFERER"=>"/tasks"}
+
+
+Processing TasksController#create (for 127.0.0.1 at 2010-06-24 00:11:19) [POST]
+  Parameters: {"commit"=>"new", "task"=>{"count_people"=>"1", "content"=>"I want a girl with me to hava a drink"}}
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mTask Create (0.2ms)[0m   [0;1mINSERT INTO `tasks` (`count_people`, `created_at`, `updated_at`, `content`, `status`) VALUES(1, '2010-06-23 16:11:19', '2010-06-23 16:11:19', 'I want a girl with me to hava a drink', 'waiting')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/tasks/4
+Completed in 5ms (DB: 0) | 302 Found [http://www.example.com/tasks]
+REQUESTING PAGE: GET http://www.example.com/tasks/4 with {} and HTTP headers {"HTTP_REFERER"=>"/tasks"}
+
+
+Processing TasksController#show (for 127.0.0.1 at 2010-06-24 00:11:19) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mTask Load (0.3ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 4) [0m
+Rendering template within layouts/tasks
+Rendering tasks/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/tasks/4]
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
